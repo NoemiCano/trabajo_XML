@@ -1,0 +1,15 @@
+<!ELEMENT hotel (reserva*)>
+
+<!ELEMENT reserva (habitacion, persona)>
+
+<!ELEMENT habitacion (numero, planta)>
+<!ATTLIST habitacion id CDATA #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT planta (#PCDATA)>
+
+<!ELEMENT persona (DNI, nombre, telefono, e-mail)>
+<!ATTLIST persona id CDATA #REQUIRED>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT e-mail (#PCDATA)>
