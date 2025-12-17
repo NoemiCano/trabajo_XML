@@ -2,14 +2,12 @@
 
 <!ELEMENT reserva (habitacion, persona)>
 
-<!ELEMENT habitacion (numero, planta)>
-<!ATTLIST habitacion id CDATA #REQUIRED>
-<!ELEMENT numero (#PCDATA)>
+<!ELEMENT habitacion (planta)>
+<!ATTLIST habitacion numero CDATA #REQUIRED>
 <!ELEMENT planta (#PCDATA)>
 
-<!ELEMENT persona (DNI, nombre, telefono, e-mail)>
-<!ATTLIST persona id CDATA #REQUIRED>
-<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT persona (nombre, telefono, e-mail)>
+<!ATTLIST persona DNI CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT e-mail (#PCDATA)>
