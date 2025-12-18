@@ -4,7 +4,7 @@
 
 <hotel>
 
-    <reserva>
+    <reserva id="1">
 
         <habitacion numero="101">
 
@@ -24,7 +24,7 @@
 
     </reserva>
 
-    <reserva>
+    <reserva id="2">
 
         <habitacion numero="305">
 
@@ -44,7 +44,7 @@
 
     </reserva>
 
-    <reserva>
+    <reserva id="3">
 
         <habitacion numero="108">
 

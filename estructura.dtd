@@ -1,6 +1,7 @@
 <!ELEMENT hotel (reserva*)>
 
 <!ELEMENT reserva (habitacion, persona)>
+<!ATTLIST reserva id CDATA #REQUIRED>
 
 <!ELEMENT habitacion (planta)>
 <!ATTLIST habitacion numero CDATA #REQUIRED>
