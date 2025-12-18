@@ -1,7 +1,8 @@
 # Trabajo Grupal XML 1
 
 ## Descripción
-Este repositorio contiene archivos XML que simulan un **Sistema de reservas de un hotel**. COnsiste en un XML estructurado según una estructura establecida en un DTD y XSD que establecen los apartados que debe tener el XML.
+Este repositorio contiene archivos XML que simulan un **Sistema de reservas de un hotel**. 
+Consta de un archivo XML que utiliza la estructura definida en los archivos **DTD y XSD**, los cuales establecen los apartados que debe contener el documento XML.
 
 ```text
 trabajo_XML/ 
@@ -45,9 +46,9 @@ hotel
 ```
 
 ## Qué valida el DTD
-El documento DTD define la estructura lógica del XML mediante declaraciones `<!ELEMENT>` y `<!ATTLIST>`, que indican qué elementos pueden aparecer, en qué orden y qué atributos son obligatorios.
+El documento DTD define la estructura lógica del XML mediante las declaraciones `<!ELEMENT>` y `<!ATTLIST>`, que indican qué elementos pueden aparecer, en qué orden y qué atributos son obligatorios.
 
-El elemento raíz `<hotel>` se declara como contenedor del resto de elementos, las secciones principales son: `<reserva>`, lo que se indica mediante el símbolo *, permitiendo que existan más de una reserva.
+El elemento raíz `<hotel>` se declara como contenedor del resto de elementos, las secciones principales son: `<reserva>`, lo que se indica mediante el símbolo *, permitiendo que existan una o más de una reserva.
 
 Cada `<reserva>` está compuesta por dos elementos principales: `<habitacion>` y `<persona>`, definidos en un orden concreto, lo que obliga al XML a respetar dicha jerarquía.
 
