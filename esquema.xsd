@@ -1,1 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="hotel">
+    <xs:complexType> 
+        <xs:sequence> 
+            <xs:element name="reserva" maxOccurs="unbounded"> 
+                <xs:complexType>
+                    <xs:sequence> 
+
+                    <xs:element name="habitacion" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="planta" type="xs:integer"/>
+                            </xs:sequence>
+                            <xs:attribute name="numero" type="xs:integer" use="required"/>
+                        </xs:complexType>
+                    </xs:element>
+
+                    <xs:element name="persona" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nombre" type="xs:string"/>
+                                <xs:element name="telefono" type="xs:string"/>
+                                <xs:element name="e-mail" type="xs:string"/>
+                            </xs:sequence>
+                            <xs:attribute name="DNI" type="xs:integer" use="required"/>
+                        </xs:complexType>
+                    </xs:element>
+
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:integer" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+</xs:schema>
