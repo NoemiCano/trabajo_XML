@@ -17,6 +17,8 @@
             <nombre>Noemi</nombre>
             <telefono>600 00 00 05</telefono>
             <e-mail>noemi.cano@estudiante.xtart.com</e-mail>
+            <fecha_entrada>10/12/2025</fecha_entrada>
+            <fecha_salida>11/12/2025</fecha_salida>
 
         </persona>
 
@@ -35,6 +37,8 @@
             <nombre>Laura</nombre>
             <telefono>607 14 48 14</telefono>
             <e-mail>laura.otero@estudiante.xtart.com</e-mail>
+            <fecha_entrada>02/01/2025</fecha_entrada>
+            <fecha_salida>08/01/2025</fecha_salida>
 
         </persona>
 
@@ -53,6 +57,8 @@
             <nombre>Jorge</nombre>
             <telefono>605 48 50 23</telefono>
             <e-mail>correoinventado@estudiante.xtart.com</e-mail>
+            <fecha_entrada>04/03/2025</fecha_entrada>
+            <fecha_salida>05/03/2025</fecha_salida>
 
         </persona>
 
