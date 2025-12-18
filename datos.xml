@@ -1,2 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE hotel SYSTEM "estructura.dtd">
+
+<hotel>
+
+    <reserva>
+
+        <habitacion numero="101">
+
+            <planta>Primera</planta>
+
+        </habitacion>
+
+        <persona DNI="01548678K">
+
+            <nombre>Noemi</nombre>
+            <telefono>600 00 00 05</telefono>
+            <e-mail>noemi.cano@estudiante.xtart.com</e-mail>
+
+        </persona>
+
+    </reserva>
+
+    <reserva>
+
+        <habitacion numero="305">
+
+            <planta>Tercera</planta>
+
+        </habitacion>
+
+        <persona DNI="60548678Q">
+
+            <nombre>Laura</nombre>
+            <telefono>607 14 48 14</telefono>
+            <e-mail>laura.otero@estudiante.xtart.com</e-mail>
+
+        </persona>
+
+    </reserva>
+
+    <reserva>
+
+        <habitacion numero="108">
+
+            <planta>Primera</planta>
+
+        </habitacion>
+
+        <persona DNI="54185157G">
+
+            <nombre>Jorge</nombre>
+            <telefono>605 48 50 23</telefono>
+            <e-mail>correoinventado@estudiante.xtart.com</e-mail>
+
+        </persona>
+
+    </reserva>
+</hotel>
