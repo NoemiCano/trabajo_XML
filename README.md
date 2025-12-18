@@ -12,6 +12,10 @@ trabajo_XML/
 └── README.txt
 ```
 
+## Enlace al repositorio remoto
+https://github.com/NoemiCano/trabajo_XML.git 
+
+
 ## Contexto elegido
 El tema elegido es un **Sistema de reservas de un hotel** en el que se especifíca la información relacionada con el usuario y las fechas, así como la habitación asignada. 
 
