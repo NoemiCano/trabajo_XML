@@ -11,7 +11,7 @@
                     <xs:element name="habitacion" maxOccurs="unbounded">
                         <xs:complexType>
                             <xs:sequence>
-                                <xs:element name="planta" type="xs:integer"/>
+                                <xs:element name="planta" type="xs:string"/>
                             </xs:sequence>
                             <xs:attribute name="numero" type="xs:integer" use="required"/>
                         </xs:complexType>
@@ -21,8 +21,10 @@
                         <xs:complexType>
                             <xs:sequence>
                                 <xs:element name="nombre" type="xs:string"/>
-                                <xs:element name="telefono" type="xs:string"/>
+                                <xs:element name="telefono" type="xs:integer"/>
                                 <xs:element name="e-mail" type="xs:string"/>
+                                <xs:element name="fecha_entrada" type="xs:string"/>
+                                <xs:element name="fecha_salida" type="xs:string"/>
                             </xs:sequence>
                             <xs:attribute name="DNI" type="xs:integer" use="required"/>
                         </xs:complexType>

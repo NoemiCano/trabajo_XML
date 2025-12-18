@@ -6,8 +6,10 @@
 <!ATTLIST habitacion numero CDATA #REQUIRED>
 <!ELEMENT planta (#PCDATA)>
 
-<!ELEMENT persona (nombre, telefono, e-mail)>
+<!ELEMENT persona (nombre, telefono, e-mail, fecha_entrada, fecha_salida)>
 <!ATTLIST persona DNI CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT e-mail (#PCDATA)>
+<!ELEMENT fecha_entrada (#PCDATA)>
+<!ELEMENT fecha_salida (#PCDATA)>
